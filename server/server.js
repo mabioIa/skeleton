@@ -19,7 +19,6 @@ app.get("/", (req, res) => {
 });
 
 // Start server
-
 const PORT = process.env.PORT ?? 3000;
 app.listen(PORT, function start(err) {
   if (err) {
@@ -30,7 +29,6 @@ app.listen(PORT, function start(err) {
 });
 
 // Connect to MongoDB instance
-
 import { MongoClient } from "mongodb";
 const url = process.env.MONGODB_URI;
 MongoClient.connect(url, (err, db) => {

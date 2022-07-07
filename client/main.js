@@ -1,6 +1,6 @@
 import React from "react";
-import { render } from "react-dom";
-import yo from "./yo";
+import { hydrate } from "react-dom";
+import Yo from "./Yo";
 
 const root = document.getElementById("root");
-render(<yo />, root);
+hydrate(<Yo />, root);

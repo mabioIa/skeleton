@@ -1,12 +1,12 @@
 import React from "react";
 import { hot } from "react-hot-loader";
 
-const yo = () => {
+const Yo = () => {
   return (
     <div>
-      <h1>yo world!</h1>
+      <h1>y0!</h1>
     </div>
   );
 };
 
-export default hot(module)(yo);
+export default hot(module)(Yo);
